@@ -1,0 +1,6 @@
+h1.banner {
+  background-color: rgb(46,201,127);
+  min-height: 100vh;
+  width: 100vw;
+  text-align: center;
+}
