@@ -1,6 +1,13 @@
 h1.banner {
   background-color: rgb(46,201,127);
-  min-height: 100vh;
+  color: rgb(255,255,255);
+  font-style: italic;
+  font-family: "Brush Script Std";
+  min-height: 10vh;
   width: 100vw;
   text-align: center;
+  font-size: 100px;
+  position: fixed;
+  top: 0;
+  margin: 0;
 }
