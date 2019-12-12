@@ -12,8 +12,30 @@ h1.banner {
   margin: 0;
 }
 
-
 .carouselImages {
   width: 60%;
   height: 40%;
+}
+.navbar4 {
+  position: relative;
+  top: 9vw;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+
+
+}
+
+@media (min-width: 992px) {
+  .Daisy{
+    margin: auto !important;
+    width: 70%;
+    display: inline-flex;
+  }
 }
