@@ -24,6 +24,14 @@ h1.banner {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-  
 
+
+}
+
+@media (min-width: 992px) {
+  .Daisy{
+    margin: auto !important;
+    width: 70%;
+    display: inline-flex;
+  }
 }
