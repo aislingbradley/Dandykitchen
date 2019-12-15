@@ -7,7 +7,7 @@ h1.banner {
   width: 100vw;
   text-align: center;
   font-size: 100px;
-  position: fixed;
+  position: static;
   top: 0;
   margin: 0;
 }
@@ -17,7 +17,8 @@ h1.banner {
   height: 40%;
 }
 .navbar4 {
-  position: relative;
+  position: static;
+  width:100%;
   top: 9vw;
   display: -ms-flexbox;
   display: flex;
