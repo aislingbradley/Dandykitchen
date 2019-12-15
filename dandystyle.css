@@ -13,7 +13,7 @@ h1.banner {
 }
 
 .navbar4 {
-  position: relative;
+  position: fixed;
   top: 9vw;
   display: -ms-flexbox;
   display: flex;
@@ -31,8 +31,12 @@ h1.banner {
 @media (min-width: 992px) {
   .Daisy{
     margin: auto !important;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    display: inline-flex;
+
   }
+}
+
+.Featured {
+  display: inline-table;
 }
