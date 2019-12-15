@@ -1,0 +1,83 @@
+h1.banner {
+  background-color: rgb(46,201,127);
+  color: rgb(255,255,255);
+  font-style:italic;
+  font-family: "Brush Script Std";
+  min-height: 10vh;
+  width: 100vw;
+  text-align: center;
+  font-size: 100px;
+  position: fixed;
+  top: 0;
+  margin: 0;
+}
+
+
+
+
+.carouselImages {
+  position:relative;
+  width: 100%;
+  height: 40%;
+justify-content: center;
+top: 10vw;
+
+}
+
+.navbar4 {
+  position: relative;
+  top: 9vw;
+  font-family: 'Calibri'
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 21rem;
+
+}
+
+h2.aboutus {
+  position:relative;
+  top:17vw;
+  padding: 10px 200px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(0,5,5);
+  font-style:italic;
+  font-style:bold;
+  font-family: "Calibri";
+  font-size: 3vw;
+}
+p.text {
+  position:relative;
+  top:20vw;
+  padding: 10px 200px;
+  border-radius: 5px;
+  border: none;
+  color: rgb(0,5,5);
+  font-family: "Calibri";
+  font-size: 2vw;
+}
+.button{
+  position:relative;
+  top:30vw;
+  padding: 10px 200px;
+  border-radius: 5px;
+  border: none;
+  font-family: "Calibri"
+
+}
+
+
+@media (min-width: 992px) {
+  .Daisy{
+    margin: auto !important;
+    width: 70%;
+    display: inline-flex;
+  }
+}
