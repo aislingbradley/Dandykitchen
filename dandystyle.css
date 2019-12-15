@@ -98,8 +98,12 @@ p.text {
 @media (min-width: 992px) {
   .Daisy{
     margin: auto !important;
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
+    width: 100%;
+    display: inline-flex;
+
   }
+}
+
+.Featured {
+  display: inline-table;
 }
