@@ -35,7 +35,8 @@ h1.banner {
 @media (min-width: 992px) {
   .Daisy{
     margin: auto !important;
-    width: 70%;
-    display: inline-flex;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
   }
 }
