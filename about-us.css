@@ -1,3 +1,7 @@
+
+.body {
+  background-color: rgb(234, 250, 244);
+}
 h1.banner {
   background-color: rgb(234, 250, 244);
   color: rgb(46,201,127);
@@ -26,9 +30,12 @@ h1.banner {
 
 .carouselImages {
   position:relative;
-  width: 60%;
+  width: 100%;
   height: 40%;
   justify-content: center;
+  background-color:  rgb(234, 250, 244);
+  padding-left: 200px;
+  padding-right: 200px;
 
 }
 
@@ -52,6 +59,17 @@ h1.banner {
 
 }
 
+.infobox {
+  width: 100%;
+  padding-right: 200px;
+  padding-left: 200px;
+  padding-top: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
+  background-color: rgb(234, 250, 244);
+}
+
 
 h2.aboutus {
     position: relative;
@@ -63,7 +81,7 @@ h2.aboutus {
 
   }
 
-p.text {
+.text {
   position:relative;
   border: none;
   color: rgb(40,201,127);
@@ -71,6 +89,7 @@ p.text {
   font-style: italic;
   font-size: 2vw;
 }
+
 .button{
   position:relative;
   border: none;
