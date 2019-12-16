@@ -147,7 +147,7 @@ p.text {
   border-radius: 0.5rem;
   }
 
-.col {
+.col1 {
   -ms-flex-preferred-size: 0;
   flex-basis: 0;
   -ms-flex-positive: 1;
@@ -158,5 +158,20 @@ p.text {
   border-radius: 1rem;
   background-color: rgb(46,201,127);
   color: rgb(255,255,255);
-  text-align: justify;
+  justify-content: space-between;
+
 }
+
+.col2 {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+  padding: 15px;
+  border-style: dotted;
+  border-radius: 1rem;
+  background-color: rgb(46,201,127);
+  color: rgb(255,255,255);
+  justify-content: space-between;
+  text-align: left;
