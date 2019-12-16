@@ -1,6 +1,6 @@
 h1.banner {
-  background-color: rgb(46,201,127);
-  color: rgb(255,255,255);
+  background-color: rgb(234, 250, 244);
+  color: rgb(46,201,127);
   font-style: italic;
   font-family: "Brush Script Std";
   min-height: 10vh;
@@ -38,8 +38,9 @@ a:visited {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: auto;
-  width: 80%;
-  height:50%;
+  width: 60%;
+  height:40%;
+  padding: 15px;
 
 }
 
@@ -66,6 +67,9 @@ top: 10vw;
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  border-style: dotted;
+  border-radius: 2rem;
+  border-color:  rgb(234, 250, 244);
 
 
 }
@@ -113,13 +117,15 @@ p.text {
 }
 
 .Featured {
-  width: 80%;
-  padding-right: 15px;
-  padding-left: 15px;
+  width: 100%;
+  padding-right: 200px;
+  padding-left: 200px;
   padding-top: 15px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
+  background-color: rgb(234, 250, 244);
+
 }
 
 .rounded1 {
@@ -129,7 +135,7 @@ p.text {
 
 .recipeinfo {
   list-style: none;
-  
+
 }
 
 .Daily {

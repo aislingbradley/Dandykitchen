@@ -1,33 +1,42 @@
 h1.banner {
-  background-color: rgb(46,201,127);
-  color: rgb(255,255,255);
-  font-style:italic;
+  background-color: rgb(234, 250, 244);
+  color: rgb(46,201,127);
+  font-style: italic;
   font-family: "Brush Script Std";
   min-height: 10vh;
   width: 100vw;
   text-align: center;
   font-size: 100px;
-  position: fixed;
+  position: static;
   top: 0;
   margin: 0;
 }
 
+.carousel {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 60%;
+  height:40%;
+  padding: 15px;
 
+}
 
 
 .carouselImages {
   position:relative;
-  width: 100%;
+  width: 60%;
   height: 40%;
-justify-content: center;
-top: 10vw;
+  justify-content: center;
 
 }
 
 .navbar4 {
-  position: relative;
+  position: static;
+  width:100%;
   top: 9vw;
-  font-family: 'Calibri'
+  font-family: 'Calibri';
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -36,38 +45,34 @@ top: 10vw;
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  align-items: center;
   padding: 0.5rem 1rem;
+  border-style: dotted;
+  border-radius: 2rem;
+  border-color:  rgb(234, 250, 244);
 
 }
+
 
 h2.aboutus {
-  position:relative;
-  top:17vw;
-  padding: 10px 200px;
-  border-radius: 5px;
-  border: none;
-  color: rgb(0,5,5);
-  font-style:italic;
-  font-style:bold;
-  font-family: "Calibri";
-  font-size: 3vw;
-}
+    position: relative;
+    border: none;
+    color: rgb(46,201,127);
+    font-style: bold;
+    font-family: "Brush Script Std";
+    font-size: 3vw;
+
+  }
+
 p.text {
   position:relative;
-  top:20vw;
-  padding: 10px 200px;
-  border-radius: 5px;
   border: none;
-  color: rgb(0,5,5);
-  font-family: "Calibri";
+  color: rgb(40,201,127);
+  font-family: "Brush Script Std";
+  font-style: italic;
   font-size: 2vw;
 }
 .button{
   position:relative;
-  top:30vw;
-  padding: 10px 200px;
-  border-radius: 5px;
   border: none;
   font-family: "Calibri"
 
